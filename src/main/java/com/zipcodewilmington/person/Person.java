@@ -5,7 +5,7 @@ package com.zipcodewilmington.person;
  */
 public class Person {
     private String name;
-    private int age;
+    private int age1;
 
     private String lastName;
     private String placeOfBirth;
@@ -13,7 +13,7 @@ public class Person {
     private String nationality;
     public Person(String name, int age, String lastName, String placeOfBirth, String birthMonth, String nationality) {
         this.name = name;
-        this.age = age;
+        this.age1 = age;
         this.lastName = lastName;
         this.placeOfBirth = placeOfBirth;
         this.birthMonth = birthMonth;
@@ -21,7 +21,7 @@ public class Person {
     }
 
     public Person(int age) {
-        this.age = age;
+        this.age1 = age;
     }
 
     public Person(String name) {
@@ -30,7 +30,7 @@ public class Person {
 
     public Person(String name, int age) {
         this.name = name;
-        this.age = age;
+        this.age1 = age;
     }
 
     public Person() {
@@ -42,7 +42,7 @@ public class Person {
     }
 
     public void setAge(int age) {
-        this.age = age;
+        this.age1 = age;
     }
 
     public String getName() {
@@ -50,7 +50,7 @@ public class Person {
     }
 
     public Integer getAge() {
-        return age;
+        return age1;
     }
 
     public String getLastName() {
